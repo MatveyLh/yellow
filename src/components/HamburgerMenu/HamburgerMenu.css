@@ -1,0 +1,34 @@
+.hamburger-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+.hamburger-menu .hamburger-menu__items {
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.hamburger-menu .hamburger-menu__items .item {
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+.navigation-hamburger {
+    background-color: #ffffff;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.navigation-hamburger .navigation_logo-hamburger {
+    padding-left: 37px;
+    width: 183px;
+}

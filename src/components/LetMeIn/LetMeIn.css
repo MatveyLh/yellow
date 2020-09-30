@@ -1,0 +1,64 @@
+.wrapper .Rectangle-3 {
+    display: flex;
+    align-items: center;
+    max-width: 503px;
+    height: 379px;
+    border-radius: 44px;
+    background-color: #e990f9;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 7% auto auto;
+}
+/*.hamburger-menu {
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+}
+.hamburger-menu .hamburger-menu__items {
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.hamburger-menu .hamburger-menu__items .item {
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+    margin-bottom: 50px;
+}
+.navigation-hamburger {
+    background-color: #ffffff;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.navigation-hamburger .navigation_logo-hamburger {
+    padding-left: 37px;
+    width: 183px;
+}*/
+.wrapper .Rectangle-3 .btn-let-me-in {
+    width: 151px;
+    height: 60px;
+    border-radius: 36px;
+    background: none;
+    color: #ffffff;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+.wrapper .Rectangle-3 .btn-let-me-in:focus {
+    outline: none;
+}
+
+@media(max-width: 960px) {
+    .wrapper .Rectangle-3 {
+        background-color: #ffffff;
+    }
+    .wrapper .Rectangle-3 .btn-let-me-in {
+        border: 3px solid #e990f9;
+        color: #e990f9;
+    }
+}

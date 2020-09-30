@@ -1,0 +1,39 @@
+.wrapper {
+    padding-top: 85px;
+    margin: 0 10% 0 10%;
+}
+.wrapper h3 {
+    color: #7ed321;
+    text-transform: uppercase;
+    height: 43px;
+    font-family: SFUIText;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.wrapper .text {
+    max-width: 614px;
+    height: 191px;
+    font-family: SFUIText;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+}
+
+@media (max-width: 480px) {
+    .wrapper .second {
+        margin-top: 90px;
+    }
+}
+@media (max-width: 320px) {
+    .wrapper .second {
+        margin-top: 150px;
+    }
+}

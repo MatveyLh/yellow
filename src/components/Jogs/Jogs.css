@@ -1,0 +1,146 @@
+.jogs-navigation {
+    background-color: #eaeaea;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jogs-navigation input {
+    margin-right: 50px;
+    width: 100px;
+    height: 31px;
+    border-radius: 11px;
+    border: solid 1px #979797;
+}
+.jogs-navigation input:focus {
+    outline: none;
+}
+.jogs-navigation label {
+    margin-right: 10px;
+    width: 61px;
+    height: 15px;
+    font-family: SFUIText;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+.jogs-content__item {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+.add-first-jog {
+    width: 249px;
+    height: 60px;
+    border-radius: 36px;
+    border: 3px solid #e990f9;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 140px auto auto;
+}
+.add-first-jog:focus {
+    outline: none;
+}
+.empty-jogs h3 {
+    font-family: SFUIText;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+}
+.empty-jogs img {
+    display: flex;
+    margin: 10% auto auto;
+}
+.jogs-img {
+    height: 50%;
+    margin: auto 0;
+    padding-right: 50px;
+}
+.date {
+    width: 73px;
+    height: 16px;
+    font-family: SFUIText;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.jogs-p-data {
+    height: 16px;
+    font-family: SFUIText;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.add-btn {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #7ed321!important;
+    width: 503px;
+    height: 379px;
+    border-radius: 44px!important;
+}
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-input {
+    width: 236px;
+    height: 31px;
+    border-radius: 7px;
+    border: solid 1px #979797;
+}
+.select-form label {
+    width: 80px;
+    height: 19px;
+    font-family: SFUIText;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.select-form {
+    text-align: center;
+}
+
+.save-btn {
+    width: 320px;
+    height: 42px;
+    border-radius: 25.2px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.save-btn:focus {
+    outline: none;
+}
+@media(max-width: 960px) {
+    .jogs-content__item {
+        border-bottom: 1px solid #dddddd;
+    }
+}
