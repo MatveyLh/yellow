@@ -12,9 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="325770c1-f6f2-475c-8e3e-c7c10f57e3c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HamburgerMenu/HamburgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HamburgerMenu/HamburgerMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info/Info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info/Info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +38,56 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.Jogs">
-    <configuration name="Jogs" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.button let me in, check navigation">
+    <configuration name="button let me in" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
+      <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/App.test.js" />
       <test-names>
-        <test-name value="Jogs" />
+        <test-name value="button let me in" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="button let me in, check navigation" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="button let me in, check navigation" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="check empty list" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="check empty list" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="check header" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="check header" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -69,7 +106,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Jogs" />
+        <item itemvalue="Jest.button let me in, check navigation" />
+        <item itemvalue="Jest.button let me in" />
+        <item itemvalue="Jest.check header" />
+        <item itemvalue="Jest.check empty list" />
         <item itemvalue="Jest.renders learn react link" />
       </list>
     </recent_temporary>
@@ -90,7 +130,7 @@
       <workItem from="1601394452612" duration="2657000" />
       <workItem from="1601407183874" duration="3917000" />
       <workItem from="1601446957105" duration="8000" />
-      <workItem from="1601447031354" duration="2080000" />
+      <workItem from="1601447031354" duration="3055000" />
     </task>
     <servers />
   </component>
@@ -109,25 +149,37 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="215" y="103" width="1222" height="735" key="DiffContextDialog" timestamp="1601449315233">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state x="215" y="103" width="1222" height="735" key="DiffContextDialog/72.27.1528.873@72.27.1528.873" timestamp="1601449315233" />
     <state x="619" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601446963489">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="619" y="221" width="424" height="491" key="FileChooserDialogImpl/72.27.1528.873@72.27.1528.873" timestamp="1601446963489" />
-    <state width="1505" height="216" key="GridCell.Tab.0.bottom" timestamp="1601448757279">
+    <state width="1505" height="323" key="GridCell.Tab.0.bottom" timestamp="1601450051012">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1505" height="216" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1601448757279" />
-    <state width="1505" height="216" key="GridCell.Tab.0.center" timestamp="1601448757278">
+    <state width="1505" height="323" key="GridCell.Tab.0.bottom/72.27.1528.873@72.27.1528.873" timestamp="1601450051012" />
+    <state width="1505" height="323" key="GridCell.Tab.0.center" timestamp="1601450051011">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1505" height="216" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1601448757278" />
-    <state width="1505" height="216" key="GridCell.Tab.0.left" timestamp="1601448757278">
+    <state width="1505" height="323" key="GridCell.Tab.0.center/72.27.1528.873@72.27.1528.873" timestamp="1601450051011" />
+    <state width="1505" height="323" key="GridCell.Tab.0.left" timestamp="1601450051011">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1505" height="216" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1601448757278" />
-    <state width="1505" height="216" key="GridCell.Tab.0.right" timestamp="1601448757278">
+    <state width="1505" height="323" key="GridCell.Tab.0.left/72.27.1528.873@72.27.1528.873" timestamp="1601450051011" />
+    <state width="1505" height="323" key="GridCell.Tab.0.right" timestamp="1601450051011">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state width="1505" height="216" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1601448757278" />
+    <state width="1505" height="323" key="GridCell.Tab.0.right/72.27.1528.873@72.27.1528.873" timestamp="1601450051011" />
+    <state x="431" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601449317615">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state x="431" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1601449317615" />
+    <state x="432" y="143" width="618" height="580" key="find.popup" timestamp="1601449252992">
+      <screen x="72" y="27" width="1528" height="873" />
+    </state>
+    <state x="432" y="143" width="618" height="580" key="find.popup/72.27.1528.873@72.27.1528.873" timestamp="1601449252992" />
   </component>
 </project>
