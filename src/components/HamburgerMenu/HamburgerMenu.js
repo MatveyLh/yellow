@@ -5,7 +5,7 @@ import './HamburgerMenu.css';
 
 const HamburgerMenu = (props) => {
     const [flag, setFlag] = useState(props.open);
-    debugger
+
     return (
         <div className={'hamburger-menu'}>
             <nav className={'navigation-hamburger'}>
@@ -18,7 +18,6 @@ const HamburgerMenu = (props) => {
                     localStorage.setItem('click', '1');
                 }} activeStyle={{color: 'green'}} className={'item'}>Jogs</NavLink>
                 <NavLink onClick={() => {
-                    debugger
                     props.updateOpen(!flag);
                     setFlag(!flag)
                     localStorage.setItem('click', '1');

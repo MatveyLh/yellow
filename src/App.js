@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
     BrowserRouter as Router,
@@ -26,7 +25,6 @@ class App extends React.Component {
     }
 
     render() {
-        console.log(this.state.open)
         return (
             <React.Fragment>
                 <Router basename={process.env.PUBLIC_URL}>

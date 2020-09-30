@@ -44,7 +44,7 @@ const Jogs = (props) => {
         const body = new FormData();
         body.append('jog_id', item.id)
         body.append('user_id', item.user_id);
-        /*axios.delete('https://jogtracker.herokuapp.com/api/v1/data/jog', {headers: {Authorization: localStorage.getItem('token')}} , body)*/
+
         fetch('https://jogtracker.herokuapp.com/api/v1/data/jog', {
             method: 'DELETE',
             headers: {Authorization: localStorage.getItem('token')},
@@ -53,7 +53,6 @@ const Jogs = (props) => {
             .then(() => {
                 setRefrash(!refresh)
             })
-        console.log(item)
     }
 
     const jogItem = (item,index, date) => {
